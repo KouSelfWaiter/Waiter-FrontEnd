@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+// Footer importation to Main Page
+import Footer from "./components/Footer"
+// Header importation to Main Page
+import Navbar from "./components/Navbar"
+// Product list importation to Main Page
+import ProductList from "./components/ProductList"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <h1>
+      <Navbar/>
+      {/*<ProductList/>*/}
+      {/*<Footer/>*/}
+    </h1>
+  )
 }
 
-export default App;
+export default App
