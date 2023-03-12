@@ -10,7 +10,7 @@ function App() {
     <h1>
       <Navbar/>
       {/*<ProductList/>*/}
-      {/*<Footer/>*/}
+      <Footer/>
     </h1>
   )
 }
