@@ -1,0 +1,23 @@
+@import "../../App.scss";
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1 px 4px;
+    height: 60px;
+    position: relative;
+    z-index: 999;
+    transition: $transition;
+
+    .navbar-brand-text{
+        margin-left: 5px;
+    }
+    .navbar-search-text{
+        margin-right: 12px;
+    }
+
+}
+
+.scrolled{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
