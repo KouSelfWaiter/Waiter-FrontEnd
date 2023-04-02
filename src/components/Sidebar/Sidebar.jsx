@@ -9,17 +9,16 @@ const Sidebar = () => {
   const { isSidebarOpen, closeSidebar} = useSidebarContext();
 
   return (
-    <nav className={`{sidebar ${isSidebarOpen ? 'sidebar-visible' : ""}}`}>
-      <button typpe = "button" className='navbar-hide-btn' onClick={() =>
-      closeSidebar()}>
-          <ImCancelCircle size = {24} />
+    <nav className={`sidebar ${isSidebarOpen ? 'sidebar-visible' : ""}`}>
+      <button type = "button" className='navbar-hide-btn' onClick={() => closeSidebar()}>
+          <ImCancelCircle size = {27} />
       </button>
 
       <div className='side-content'>
           <ul className='side-nav'>
             <li className='side-item'>
               <Link to = "" className='side-link ls-1 fs-13' onClick={() => closeSidebar()}>
-                Side Link here
+                balblabalbal
               </Link>
             </li>
           </ul>
