@@ -23,10 +23,10 @@ const Navbar = () => {
   })
 
   return (
-    <nav className={`navbar bg-orange flex align-center ${scrolled ? 'scrolled': ""}`}>
+    <nav className={`navbar bg-orange flex items-center ${scrolled ? 'scrolled': ""}`}>
       <div className='container w-100'>
         <div className='navbar-content text-white'>
-          <div className='brand-and-toggler flex align-center justify-between'>
+          <div className='flex justify-between'>
             <Link to = "/" className='navbar-brand fw-3 fs-22 flex align-center'>
               <MdFoodBank />
               <span className='navbar-brand-text fw-7'>SelfWaiter</span>
